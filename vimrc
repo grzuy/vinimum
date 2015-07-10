@@ -228,6 +228,24 @@ map <Leader><Leader> :ZoomWin<CR>
 map <C-b> :CtrlPBuffer<CR>
 
 
+"
+" YPM
+"
+
+let g:ycm_key_list_select_completion = ['<Down>']
+let g:ycm_key_list_previous_completion = ['<Up>']
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+
+
+"
+" Racer
+"
+
+let g:racer_cmd = "~/.vim/plugins/racer/target/release/racer"
+let $RUST_SRC_PATH="/Users/santiago/WyeWorks/OSS/rust/src"
+
+
 ""
 "" Bubble lines
 ""
@@ -238,7 +256,6 @@ nmap <C-Down> ]e
 " multiple lines
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
-
 
 " Include user's local vim after config
 if filereadable(expand("~/.vimrc.after"))
