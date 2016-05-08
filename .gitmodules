@@ -245,3 +245,6 @@
 [submodule "langs/textile"]
 	path = langs/textile
 	url = https://github.com/timcharper/textile.vim.git
+[submodule "plugins/qargs"]
+	path = plugins/qargs
+	url = https://github.com/nelstrom/vim-qargs.git
