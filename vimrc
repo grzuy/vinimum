@@ -242,8 +242,10 @@ let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 " Racer
 "
 
-let g:racer_cmd = "~/.vim/plugins/racer/target/release/racer"
-let $RUST_SRC_PATH="/Users/santiago/WyeWorks/OSS/rust/src"
+set hidden
+let g:racer_cmd = expand("~/.vim/bin/racer/target/release/racer")
+let $RUST_SRC_PATH = expand("~/src/oss/rust/src")
+let $CARGO_HOME = expand("~/.cargo")
 
 
 ""
