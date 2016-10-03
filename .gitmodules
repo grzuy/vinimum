@@ -9,6 +9,9 @@
 	url = https://github.com/lukaszb/vim-web-indent.git
 
 # Plugins
+[submodule "bin/racer"]
+	path = bin/racer
+	url = https://github.com/phildawes/racer.git
 [submodule "plugins/abolish"]
 	path = plugins/abolish
 	url = https://github.com/tpope/vim-abolish.git
